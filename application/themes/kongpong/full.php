@@ -4,20 +4,18 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="de">  <!--<![endif]-->
 <head>
-
+<?php Loader::element('header_required'); ?>
 	<!-- META DATA -->
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<meta charset="UTF-8">
-	<title>Jarvis - One Page Parallax Template</title>
-  <meta name="description" content="A Template by RocknRolla Designs"/>
-  <meta name="keywords" content="HTML, CSS, JavaScript, PHP"/>
-  <meta name="author" content="RocknRolla Designs"/>
+  <meta name="author" content="Kong Pong"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 	<!-- GOOGLE WEB FONTS INCLUDE -->
 	<link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	
+<!-- JARVIS THEME SCRIPTS -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>  
 	<!-- JARVIS THEME STYLESHEETS -->
      
 	<link rel="stylesheet" href="<?php echo $this->getThemePath()?>/css/skeleton.css" type="text/css">
@@ -42,6 +40,7 @@
 </head>
 
 <body class="onepage" data-spy="scroll" data-target=".navigation">
+ <div class="<?php $c->getPageWrapperClass(); ?>">
  <div id="load"></div>
  
 
@@ -52,22 +51,22 @@
     
     
 	<!-- START HOME SECTION -->    
-	<div id="home" class="home-parallax">
+	<div id="home" class="home-parallax" >
       <div class="home-text-wrapper">
       
           <div class="home-logo-text">
-            <a href="#about">Welcome to Jarvis</a>
+            <a href="#about">Kong Pong</a>
           </div>
                 
            <div id="home-slider" class="flexslider">			
                 <ul class="slides styled-list">
                 
-                <li class="home-slide"><p class="home-slide-content">We are <span class="highlight">Creative</span> Nerds</p></li>
+                <li class="home-slide"><p class="home-slide-content">It's like <span class="highlight">Beer Pong</span> on steroids</p></li>
                 
-                <li class="home-slide"><p class="home-slide-content">We are <span class="highlight">crazy</span> Coders</p></li>
+               <!--  <li class="home-slide"><p class="home-slide-content">We are <span class="highlight">crazy</span> Coders</p></li>
                 
                 <li class="home-slide"><p class="home-slide-content">We <span class="highlight">love</span> Pizzas</p></li>
-                
+                 -->
                 </ul>
            </div><!-- END FLEXSLIDER -->
         </div><!-- END HOME TEXT WRAPPER -->
@@ -82,7 +81,7 @@
           <div class="four columns">			
               <!-- START LOGO -->	
               <div class="logo large">
-               <a href="#home"><img src="images/logo.png" title="logo" alt="Logo"/></a>
+               <a href="#home"><img src="<?php echo $this->getThemePath()?>/images/logo.png" title="logo" alt="Logo"/></a>
               </div>
               <!-- END LOGO -->			
           </div><!-- END FOUR COLUMNS -->   
@@ -115,9 +114,10 @@
 			<div class="sixteen columns">            
 	            <!-- START TITLE -->	            
 				<div class="title">
-				  <h1>About Jarvis</h1>
+				  <h1>About Kong Pong</h1>
                   <div class="subtitle">
-                      <p>we are utmost <span class="highlight">Creative Agency</span> located in Melbourne, Australia. Praesent rhoncus nunc <span class="highlight">vitae metus</span> condimentum viverra.</p>
+                      <p style="text-align: justify;">Beer pong has finally evolved... & it's name is <span class="highlight"> KONG PONG!</span><br><br>
+It's official - people are getting tired of playing the same old pong games everywhere they go. What started out as a shabby drinking game for a small house party, has now become a professionally molded, patented, & trademarked drinking tower known as KONG PONG.</p>
                   </div><!-- END SUBTITLE -->
                 </div><!-- END TITLE -->  	                           
 			</div><!-- END SIXTEEN COLUMNS -->  
@@ -130,28 +130,28 @@
 <div class="fullwidth grey">
         <div class="container">  
         <div class="fancy-header2">       
-           <h4>What we do?</h4>
-           <h2 class="highlight">Powerful websites that look beautiful.</h2>
+           <h4>How we innovated</h4>
+           <h2 class="highlight">Created a new Version of Beer Pong.</h2>
         </div>
            
          <div class="row">          
                 <div class="one-third column">
                   <div class="service-features">
                   <div class="img-container">
-                    <img src="images/icons/icons/paperplane.png" alt="Service Features">
+                    <img src="<?php echo $this->getThemePath()?>/images/kpp/IMG_5248.jpg" alt="Service Features">
                   </div>  
                     <h3>Innovative</h3>                
-                    <p> Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.</p>
+                    <p> pryamid design .</p>
                   </div>               
                 </div><!-- END ONE THIRD COLUMN -->
                 
                 <div class="one-third column">
                   <div class="service-features">
                   <div class="img-container">
-                    <img src="images/icons/icons/lab.png" alt="Service Features">
+                    <img src="<?php echo $this->getThemePath()?>/images/kpp/IMG_5248.jpg" alt="Service Features">
                   </div>                   
 
-                    <h3>Experimental</h3>                
+                    <h3>Variety of Games</h3>                
                     <p> Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.</p>
                   </div>               
                
@@ -160,9 +160,9 @@
                 <div class="one-third column">
                   <div class="service-features">
                   <div class="img-container">                  
-                    <img src="images/icons/icons/like.png" alt="Service Features">
+                    <img src="<?php echo $this->getThemePath()?>/images/kpp/IMG_5248.jpg" alt="Service Features">
                   </div>
-                    <h3>Perfect</h3>                
+                    <h3>Uniue and fun</h3>                
                     <p> Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.</p>
                   </div>               
                 
@@ -182,27 +182,27 @@
 
             <div class="row">
                <div class="sixteen columns">
-                 <h2>How about Some Fun Facts about our agency?</h2>
+                 <h2>How many have we sold?</h2>
                </div><!-- END SIXTEEN COLUMNS -->
                
                <div class="four columns">
-                 <div class="milestone-counter" data-perc="680">
+                 <div class="milestone-counter" data-perc="2">
                    <span class="milestone-count highlight"></span>
-                   <h6 class="milestone-details">Pizzas ordered</h6>
+                   <h6 class="milestone-details">Prototypes created</h6>
                  </div>
                </div><!-- END FOUR COLUMNS -->  
 
                <div class="four columns">
-                 <div class="milestone-counter" data-perc="85">
+                 <div class="milestone-counter" data-perc="1000">
                    <span class="milestone-count highlight"></span>
-                   <h6 class="milestone-details">Clients we've worked with</h6>
+                   <h6 class="milestone-details">+ potential Buyers</h6>
                  </div>
                </div><!-- END FOUR COLUMNS --> 
                
                <div class="four columns">
                  <div class="milestone-counter" data-perc="120">
                    <span class="milestone-count highlight"></span>
-                   <h6 class="milestone-details">projects completed</h6>
+                   <h6 class="milestone-details">Games Played</h6>
                  </div>
                </div><!-- END FOUR COLUMNS --> 
                
@@ -296,8 +296,6 @@
                     </div>  
                     <!-- END TEAM DESCRIPTION -->  
                     
-                    
-                    
                          
                     <!-- START TEAM MEMBER BIO MODAL POPUP  -->
                      <div id="team-1" class="modal hide fade.in animated fadeIn">
@@ -374,224 +372,9 @@
                  </div><!-- END TEAM MEMBER -->            
                
                   
-                   <!-- START TEAM MEMBER --> 
-                   <div class="team-member">
-                      <!-- START TEAM THUMBNAIL -->  
-                      <div class="team-thumb img-wrp">
-                      
-                        <!-- START MEMBER IMAGE --> 
-                        <img src="images/team/team2.png" alt="team">	
-                        <!-- END MEMBER IMAGE --> 
-                         <!-- START TEAM OVERLAY -->  
-                         <div class="team-overlay">
-                            <div class="img-overlay"></div>
-                              <!-- START OVERLAY CONTENT -->  
-                              <div class="overlay-content">                            
-                                
-                                <!-- START MEMBER ROLE --> 
-                                <h4>Senior Manager</h4>
-                                <!-- END MEMBER ROLE --> 
-                                
-                                <!-- START PROFILE LINK --> 
-                                <p><a data-toggle="modal" href="#team-2" class="modal-popup-link view-profile">View Profile</a></p>
-                                <!-- END PROFILE LINK -->  
-                             </div><!-- END OVERLAY CONTENT -->  
-                             
-                        </div><!-- END TEAM OVERLAY -->          
-                       </div><!-- END TEAM THUMBNAIL -->  
-                                       
-                    <!-- START TEAM DESCRIPTION -->  
-                    <div class="team-desc">
-                      <h4>JESSICA PEARSON</h4>
-                    </div>  
-                    <!-- END TEAM DESCRIPTION -->  
-                    
-                    
-                    
-                         
-                    <!-- START TEAM MEMBER BIO MODAL POPUP  -->
-                     <div id="team-2" class="modal hide fade.in animated fadeIn">
                      
-                     <!-- START TEAM BIO -->       
-                        <div class="member-bio">
-                         <div class="container">      
-                         
-                         <!-- START MODAL POPUP CLOSE BUTTON -->                                     
-                         <a href="#" class="close" data-dismiss="modal">×</a>
-                         <!-- END MODAL POPUP CLOSE BUTTON -->
-                         
-                         
-                         <!-- START MEMBER NAME AND ROLE --> 
-                          <div class="member-role">
-                            <h1>JESSICA PEARSON</h1>
-                            <h4 class="highlight">Senior Manager</h4>
-                          </div>
-                          <!-- END MEMBER NAME AND ROLE -->  
-                          
-                          
-                          <div class="row">
-                            <div class="seven columns">
-                              <!-- START MEMBER IMAGE --> 
-                              <img src="images/team/team2.png" alt="team">	
-                              <!-- END MEMBER IMAGE --> 
-                              
-                              <!-- START MEMBER SHARING ICONS --> 
-                              <div class="member-details">                             
-                                   <div class="social-icons">
-                                      <div class="social-icon social-email"><a href="mailto:hallo@example.com" target="_blank" data-original-title="Email">Email</a></div>
-                                      <div class="social-icon social-behance"><a href="#" target="_blank" data-original-title="Behance">Behance</a></div>
-                                      <div class="social-icon social-facebook"><a href="#" target="_blank" data-original-title="Facebook">Facebook</a></div>
-                                      <div class="social-icon social-flickr"><a href="#" target="_blank" data-original-title="Flickr">Flickr</a></div>
-                                      <div class="social-icon social-forrst"><a href="#" target="_blank" data-original-title="Forrst">Forrst</a></div>
-                                   </div>                     
-                              </div>
-                              <!-- END MEMBER SHARING ICONS -->   
-                            </div><!-- END COLUMN --> 
-                            
-                            <!-- START MEMBER DESCRIPTION --> 
-                            <div class="eight columns member-description">
-                            <p class="lead">Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros.</p>
-                            
-                             <h3>Jessica's Standard Skills</h3>
-  
-                            <div class="skillbar" data-perc="85">
-                                <div class="skill-title">Web Design 85%</div>
-                                <div class="skill-percentage"></div>
-                            </div>
-                            <div class="skillbar" data-perc="70">
-                                <div class="skill-title">UX Design 70%</div>
-                                <div class="skill-percentage"></div>
-                            </div>
-                            <div class="skillbar" data-perc="60">
-                                <div class="skill-title">Brand Packaging 60%</div>
-                                <div class="skill-percentage"></div>
-                            </div>
-                            <div class="skillbar" data-perc="90">
-                                <div class="skill-title">Wordpress 90%</div>                      
-                                <div class="skill-percentage"></div>
-                          </div> 
-                          
-                         <p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros.</p> 
-                         <p>Morbi suscipit interdum molestie. Aenean fringilla dui magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est.</p>    
-                         
-                          
-                           </div><!-- END MEMBER DESCRIPTION -->   
-                           
-                          </div><!-- END ROW -->  
-                         </div><!-- END CONTAINER --> 
-                      </div><!-- END TEAM BIO -->                     
-                  </div><!-- END TEAM MEMBER BIO MODAL POPUP -->  
-                 </div><!-- END TEAM MEMBER -->           
                  
-                  
-                   <!-- START TEAM MEMBER --> 
-                   <div class="team-member">
-                      <!-- START TEAM THUMBNAIL -->  
-                      <div class="team-thumb img-wrp">
                       
-                        <!-- START MEMBER IMAGE --> 
-                        <img src="images/team/team3.png" alt="team">	
-                        <!-- END MEMBER IMAGE --> 
-                         <!-- START TEAM OVERLAY -->  
-                         <div class="team-overlay">
-                            <div class="img-overlay"></div>
-                              <!-- START OVERLAY CONTENT -->  
-                              <div class="overlay-content">                            
-                                
-                                <!-- START MEMBER ROLE --> 
-                                <h4>Creative Director</h4>
-                                <!-- END MEMBER ROLE --> 
-                                
-                                <!-- START PROFILE LINK --> 
-                                <p><a data-toggle="modal" href="#team-3" class="modal-popup-link view-profile">View Profile</a></p>
-                                <!-- END PROFILE LINK -->  
-                             </div><!-- END OVERLAY CONTENT -->  
-                             
-                        </div><!-- END TEAM OVERLAY -->          
-                       </div><!-- END TEAM THUMBNAIL -->  
-                                       
-                    <!-- START TEAM DESCRIPTION -->  
-                    <div class="team-desc">
-                      <h4>Harvey Specter</h4>
-                    </div>  
-                    <!-- END TEAM DESCRIPTION -->  
-                    
-                    
-                    
-                         
-                    <!-- START TEAM MEMBER BIO MODAL POPUP  -->
-                     <div id="team-3" class="modal hide fade.in animated fadeIn">
-                     
-                     <!-- START TEAM BIO -->       
-                        <div class="member-bio">
-                         <div class="container">      
-                         
-                         <!-- START MODAL POPUP CLOSE BUTTON -->                                     
-                         <a href="#" class="close" data-dismiss="modal">×</a>
-                         <!-- END MODAL POPUP CLOSE BUTTON -->
-                         
-                         
-                         <!-- START MEMBER NAME AND ROLE --> 
-                          <div class="member-role">
-                            <h1>JACK JONES</h1>
-                            <h4 class="highlight">Chief Technical Officer</h4>
-                          </div>
-                          <!-- END MEMBER NAME AND ROLE -->  
-                          
-                          
-                          <div class="row">
-                            <div class="seven columns">
-                              <!-- START MEMBER IMAGE --> 
-                              <img src="images/team/team3.png" alt="team">	
-                              <!-- END MEMBER IMAGE --> 
-                              
-                              <!-- START MEMBER SHARING ICONS --> 
-                              <div class="member-details">                             
-                                   <div class="social-icons">
-                                      <div class="social-icon social-email"><a href="mailto:hallo@example.com" target="_blank" data-original-title="Email">Email</a></div>
-                                      <div class="social-icon social-behance"><a href="#" target="_blank" data-original-title="Behance">Behance</a></div>
-                                      <div class="social-icon social-facebook"><a href="#" target="_blank" data-original-title="Facebook">Facebook</a></div>
-                                      <div class="social-icon social-flickr"><a href="#" target="_blank" data-original-title="Flickr">Flickr</a></div>
-                                      <div class="social-icon social-forrst"><a href="#" target="_blank" data-original-title="Forrst">Forrst</a></div>
-                                   </div>                     
-                              </div>
-                              <!-- END MEMBER SHARING ICONS -->   
-                            </div><!-- END COLUMN --> 
-                            
-                            <!-- START MEMBER DESCRIPTION --> 
-                            <div class="eight columns member-description">
-                            <p class="lead">Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros.</p>
-                            
-                            <h3>Harvey's Standard Skills</h3>
-  
-                            <div class="skillbar" data-perc="85">
-                                <div class="skill-title">Web Design 85%</div>
-                                <div class="skill-percentage"></div>
-                            </div>
-                            <div class="skillbar" data-perc="70">
-                                <div class="skill-title">UX Design 70%</div>
-                                <div class="skill-percentage"></div>
-                            </div>
-                            <div class="skillbar" data-perc="60">
-                                <div class="skill-title">Brand Packaging 60%</div>
-                                <div class="skill-percentage"></div>
-                            </div>
-                            <div class="skillbar" data-perc="90">
-                                <div class="skill-title">Wordpress 90%</div>                      
-                                <div class="skill-percentage"></div>
-                          </div> 
-                          
-                         <p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros.</p> 
-                         <p>Morbi suscipit interdum molestie. Aenean fringilla dui magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est.</p>    
-                         
-                           
-                           </div><!-- END COLUMN --> 
-                           
-                          </div><!-- END ROW -->  
-                         </div><!-- END CONTAINER --> 
-                      </div><!-- END TEAM BIO -->                     
-                  </div><!-- END TEAM MEMBER BIO MODAL POPUP -->  
-                 </div><!-- END TEAM MEMBER -->          
                   
            </div><!-- END SIXTEEN COULMNS --> 
           </div> <!-- END ROW -->     
@@ -603,20 +386,15 @@
 		    
 			<div class="sixteen columns">
             
-            <h3>Here's few Famous clients we've worked with so far</h3>
+            <h3>As seen on:</h3>
             
                 <div class="client-logos">
-                  <a href="#" title="Featured Clients" class="clients"><img src="images/clients/client6.png" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients"><img src="images/clients/client7.png" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients"><img src="images/clients/client8.png" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients"><img src="images/clients/client1.png" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients"><img src="images/clients/client2.png" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients"><img src="images/clients/client3.png" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients"><img src="images/clients/client4.png" alt="Clients"></a>
-                  <a href="#" title="Featured Clients" class="clients"><img src="images/clients/client5.png" alt="Clients"></a>              
+                  <a href="#" title="Featured Clients" class="clients"><img src="<?php echo $this->getThemePath()?>/images/clients/client1.png" alt="Clients"></a>
+                  <a href="#" title="Featured Clients" class="clients"><img src="<?php echo $this->getThemePath()?>/images/clients/client2.png" alt="Clients"></a>
+                               
                 </div><!-- END CLIENTS LIST --> 
                 
-            <p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros. Morbi suscipit interdum molestie. Aenean fringilla dui magna.</p>                
+           
 			 </div><!-- END SIXTEEN COLUMNS --> 
 	       </div>                
      
@@ -1268,7 +1046,7 @@
               <div class="social-icon social-flickr"><a href="#" target="_blank" data-original-title="Flickr">Flickr</a></div>
               <div class="social-icon social-forrst"><a href="#" target="_blank" data-original-title="Forrst">Forrst</a></div>
            </div>
-			<p>&copy; 2012 All Rights Reserved. Made with <i class="icon-heart"></i> by <a href="http://themeforest.net/user/RockNRollaDesigns">RockNRolla Designs</a></p>
+			<p>Copper Kong | &copy; 2017 All Rights Reserved.</p>
             
          </div> <!-- END SIXTEEN COLUMNS -->        
 	  </div><!-- END CONTAINER -->
@@ -1283,9 +1061,7 @@
    
 
            
-
-<!-- JARVIS THEME SCRIPTS -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
+       
 <!--<script type="text/javascript" src="js/jquery.tweet.js"></script>-->         
 <script type="text/javascript" src="<?php echo $this->getThemePath()?>/js/jquery.form.js"></script>
 <script type="text/javascript" src="<?php echo $this->getThemePath()?>/js/jquery.queryloader2.js"></script>        
@@ -1306,7 +1082,10 @@
 <script type="text/javascript" src="<?php echo $this->getThemePath()?>/js/shortcodes.js"></script>     
 <script type="text/javascript" src="<?php echo $this->getThemePath()?>/js/scripts.js"></script>            
            
-  	
+
+</div>
+<?php Loader::element('footer_required'); ?>
+
 </body>
 
 </html>

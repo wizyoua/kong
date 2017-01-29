@@ -1,10 +1,10 @@
 /*========== B A C K G R O U N D    S K I N S =============*/
 
 ::-moz-selection {
- background: #FFD600;
+ background: #ff6b00;
 }
 ::selection {
-	background: #FFD600;
+	background: #ff6b00;
 }
 nav.colored, nav.light.colored,
 .twitter-feed-icon i,
@@ -38,7 +38,7 @@ nav.colored, nav.light.colored,
 .team-member:hover .team-desc,
 .service-box .service-icon,
 .modal .close {
-	background-color: #FFD600;
+	background-color: #ff6b00;
 }
 
 
@@ -46,11 +46,11 @@ nav.colored, nav.light.colored,
 
 .title h1,
 .service-box .service-icon {
-	box-shadow:0px 0px 0px 3px #FFD600;
+	box-shadow:0px 0px 0px 3px #ff6b00;
 }
 
 .tab a.selected {
-    box-shadow: 0px -3px 0px 0px #FFD600;
+    box-shadow: 0px -3px 0px 0px #ff6b00;
 }
 
 
@@ -76,7 +76,7 @@ nav.dark .main-menu li.active a,
 .pages li a:hover,
 .home3 .slabtextdone .slabtext.second-child,
 .service-box:hover .service-icon {
-	color:#FFD600;
+	color:#ff6b00;
 }
 
 
@@ -92,18 +92,18 @@ nav.dark .main-menu li.active a,
 blockquote p,
 .pullquote.align-right,
 .pullquote.align-left {
-	border-color:#ffd600;
+	border-color:#ff6b00;
 }
 
 
 /*========== H O M E,  C O L O R   B L O C K    S K I N S =============*/
 .home-gradient, .color-block {
-	background-color: #FFD600;
-	background: -moz-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -webkit-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -o-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: -ms-radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);
-	background: radial-gradient(center center, circle cover, #FFD600 0%, #E2BE01 100%);	
+	background-color: #ff6b00;
+	background: -moz-radial-gradient(center center, circle cover, #ff6b00 0%, #E2BE01 100%);
+	background: -webkit-radial-gradient(center center, circle cover, #ff6b00 0%, #E2BE01 100%);
+	background: -o-radial-gradient(center center, circle cover, #ff6b00 0%, #E2BE01 100%);
+	background: -ms-radial-gradient(center center, circle cover, #ff6b00 0%, #E2BE01 100%);
+	background: radial-gradient(center center, circle cover, #ff6b00 0%, #E2BE01 100%);	
 }
 
 
