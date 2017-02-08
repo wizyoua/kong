@@ -94,9 +94,7 @@
                   <li><a href="#about">About</a></li>
                   <li><a href="#team">Team</a></li>
                   <li><a href="#services">Services</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
-                  <li><a href="shortcodes.html">Shortcodes</a></li>                  
-                  <li><a href="blog.html">Blog</a></li>                  
+                  <li><a href="#portfolio">Portfolio</a></li>               
                   <li><a href="#contact">Contact</a></li>
               </ul>
               <!-- END NAVIGATION MENU ITEMS -->				
@@ -200,16 +198,16 @@ It's official - people are getting tired of playing the same old pong games ever
                </div><!-- END FOUR COLUMNS --> 
                
                <div class="four columns">
-                 <div class="milestone-counter" data-perc="120">
+                 <div class="milestone-counter" data-perc="330">
                    <span class="milestone-count highlight"></span>
                    <h6 class="milestone-details">Games Played</h6>
                  </div>
                </div><!-- END FOUR COLUMNS --> 
                
                <div class="four columns">
-                 <div class="milestone-counter" data-perc="22">
+                 <div class="milestone-counter" data-perc="80">
                    <span class="milestone-count highlight"></span>
-                   <h6 class="milestone-details">magazines published</h6>
+                   <h6 class="milestone-details">Cost of each Pyramid</h6>
                  </div>
                </div><!-- END FOUR COLUMNS -->                                                                                   
            </div><!-- END ROW -->
@@ -223,11 +221,11 @@ It's official - people are getting tired of playing the same old pong games ever
 	<!-- START PARALLAX SECTION -->	
 	<div id="parallax1" class="parallax">
 		<div class="bg1 parallax-bg"></div><!-- END PARALLAX BACKGROUND -->
-		<div class="overlay"></div><!-- END PATTERN OVERLAY -->
+		<div class="overlay" style="background: url('<?php echo $this->getThemePath()?>/images/newone2.png');"></div><!-- END PATTERN OVERLAY -->
 		<div class="container clearfix">
 			<div class="parallax-content">
-				<p class="quote"><i class="icon-quote-left"></i>Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.<i class="icon-quote-right"></i></p>
-				<div class="quote-author">-- Scott Adams --</div>
+				<p class="quote"><i class="icon-quote-left"></i>If you really want to do something you'll find a way. if you don't, you'll find an excuse.<i class="icon-quote-right"></i></p>
+				<div class="quote-author">-- Dwayne Johnson --</div>
 			</div><!-- END PARALLAX CONTENT -->
 		</div><!-- END CONTAINER -->
 	</div>
@@ -242,10 +240,8 @@ It's official - people are getting tired of playing the same old pong games ever
 			<div class="sixteen columns">            
 	            <!-- START TITLE -->	            
 				<div class="title">
-				  <h1>Our Team</h1>
-                  <div class="subtitle">
-                      <p>Professional & Outstanding <span class="highlight">ideas</span> of our <span class="highlight">passionate team</span> makes us unique in every sense.</p>
-                  </div><!-- END SUBTITLE -->
+				  <h1>About the founders</h1>
+                 
                 </div><!-- END TITLE -->  	                           
 			</div><!-- END SIXTEEN COLUMNS -->  
            </div><!-- END ROW -->         
@@ -255,9 +251,20 @@ It's official - people are getting tired of playing the same old pong games ever
        <div class="fullwidth grey">  
        
         <div class="fancy-header2">       
-           <h4>Who are we anyway?</h4>
-           <h2 class="highlight">Meet the team who built the dream</h2>
+           
+           <h2 class="highlight">MEET THE Guy WHO BUILT Kong Pong</h2>
         </div>     
+        <div class="container">
+          <div class="row">
+            <div class="sixteen columns">
+              <p style="font-size: 16px; font-weight: bold; text-align: justify; pad">In High School I enjoyed throwing parties, going to different events and was never one to shy away from experiencing something new.  I went to college in a mid-sized town in Nebraska, played a couple years of football as a walk on, and joined a fraternity. My college years are definitely where I first really indulged in the art of beer drinking. As I’m sure is true of most college students, I learned as much about drinking beer as I did about anything I ever studied in class- if not more.
+<br>
+When I finished college, I was ready to escape the freezing winters of the mid-west and took a sales job with an Electrical distribution company that was willing to move me out to Arizona. I immediately fell in love with Arizona. The sky was always clear, the women were gorgeous, there was a ton of sports to go watch, and people were all laid back and energetic (I would tell my friends back home that in AZ, I could hang out with a 21-year-old as easily as I could hang out with a 50-year-old). Arizona was also close to California, Las Vegas and Mexico- all of which I made way too frequent of trips to.
+<br>
+My entire career in the electrical industry has been in sales and has consisted of entertaining at lot of customers at various happy hours, golf outings, tailgates, BBQ’s, sporting events, company trips and the list goes on and on. After 17 years of sales and entertaining- I consider myself a professional in the world of beer drinking and entertainment (so creating a beer drinking game was not a large stretch- ha).  I’ve always been pretty creative when it comes to entertainment, and I’m excited that I was able to put that creativity to work in creating Kong Pong for lots of people to enjoy. I think the world is going to have a lot of fun playing this game!</p>    
+            </div>
+          </div>
+        </div>
                     
           <div class="container">	
              <div class="row">      
@@ -270,7 +277,7 @@ It's official - people are getting tired of playing the same old pong games ever
                       <div class="team-thumb img-wrp">
                       
                         <!-- START MEMBER IMAGE --> 
-                        <img src="images/team/team1.png" alt="team">	
+                        <img src="<?php echo $this->getThemePath()?>/images/team/team1.jpg" alt="Scott Siepmann">	
                         <!-- END MEMBER IMAGE --> 
                          <!-- START TEAM OVERLAY -->  
                          <div class="team-overlay">
@@ -292,7 +299,7 @@ It's official - people are getting tired of playing the same old pong games ever
                                        
                     <!-- START TEAM DESCRIPTION -->  
                     <div class="team-desc">
-                      <h4>MIKE ROSS</h4>
+                      <h4>Scott Siepmann</h4>
                     </div>  
                     <!-- END TEAM DESCRIPTION -->  
                     
@@ -311,7 +318,7 @@ It's official - people are getting tired of playing the same old pong games ever
                          
                          <!-- START MEMBER NAME AND ROLE --> 
                           <div class="member-role">
-                            <h1>MIKE ROSS</h1>
+                            <h1>Scott Siepmann</h1>
                             <h4 class="highlight">Founder</h4>
                           </div>
                           <!-- END MEMBER NAME AND ROLE -->  
@@ -320,17 +327,17 @@ It's official - people are getting tired of playing the same old pong games ever
                           <div class="row">
                             <div class="seven columns">
                               <!-- START MEMBER IMAGE --> 
-                              <img src="images/team/team1.png" alt="team">	
+                              <img src="<?php echo $this->getThemePath()?>/images/team/team1.jpg" alt="scott Siepmann">	
                               <!-- END MEMBER IMAGE --> 
                               
                               <!-- START MEMBER SHARING ICONS --> 
                               <div class="member-details">                             
                                    <div class="social-icons">
-                                      <div class="social-icon social-email"><a href="mailto:hallo@example.com" target="_blank" data-original-title="Email">Email</a></div>
-                                      <div class="social-icon social-behance"><a href="#" target="_blank" data-original-title="Behance">Behance</a></div>
+                                      <div class="social-icon social-email"><a href="mailto:SSiepmann@wescodist.com" target="_blank" data-original-title="Email">Email</a></div>
+                                      <!-- <div class="social-icon social-behance"><a href="#" target="_blank" data-original-title="Behance">Behance</a></div>
                                       <div class="social-icon social-facebook"><a href="#" target="_blank" data-original-title="Facebook">Facebook</a></div>
                                       <div class="social-icon social-flickr"><a href="#" target="_blank" data-original-title="Flickr">Flickr</a></div>
-                                      <div class="social-icon social-forrst"><a href="#" target="_blank" data-original-title="Forrst">Forrst</a></div>
+                                      <div class="social-icon social-forrst"><a href="#" target="_blank" data-original-title="Forrst">Forrst</a></div> -->
                                    </div>                     
                               </div>
                               <!-- END MEMBER SHARING ICONS -->   
@@ -338,31 +345,18 @@ It's official - people are getting tired of playing the same old pong games ever
                             
                             <!-- START MEMBER DESCRIPTION --> 
                             <div class="eight columns member-description">
-                            <p class="lead">Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros.</p>
+                            <p class="lead">My name is Scott Siepmann, I’m 39 years old and I live in Scottsdale, Arizona. I feel as though most of my life has been in training for creating this type of game and hopefully many more to follow. I grew up as an Air Force brat and moved around a lot growing up. This fluctuation put me in a position of having to constantly make new friends in new cities and pushed me to become social at a young age.</p>
                             
-                            <h3>Mike's Standard Skills</h3>
+                            <h3>Scott's Experience</h3>
   
                             <div class="skillbar" data-perc="85">
-                                <div class="skill-title">Web Design 85%</div>
+                                <div class="skill-title">Marketing 85%</div>
                                 <div class="skill-percentage"></div>
                             </div>
                             <div class="skillbar" data-perc="70">
-                                <div class="skill-title">UX Design 70%</div>
+                                <div class="skill-title">Sales 70%</div>
                                 <div class="skill-percentage"></div>
-                            </div>
-                            <div class="skillbar" data-perc="60">
-                                <div class="skill-title">Brand Packaging 60%</div>
-                                <div class="skill-percentage"></div>
-                            </div>
-                            <div class="skillbar" data-perc="90">
-                                <div class="skill-title">Wordpress 90%</div>                      
-                                <div class="skill-percentage"></div>
-                          </div> 
-                          
-                         <p>Sed ligula magna, porta in scelerisque ac, gravida fringilla sapien. Sed tempus urna in sem ultricies vehicula vulputate purus ultrices. Aenean orci libero, scelerisque non feugiat gravida, dignissim ut tortor. Phasellus et nulla eros.</p> 
-                         <p>Morbi suscipit interdum molestie. Aenean fringilla dui magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est.</p>    
-                         
-                                                                
+                            </div>                                                         
                             </div><!-- END MEMBER DESCRIPTION -->    
                            
                           </div><!-- END ROW -->  
@@ -386,7 +380,9 @@ It's official - people are getting tired of playing the same old pong games ever
 		    
 			<div class="sixteen columns">
             
-            <h3>As seen on:</h3>
+            <div class="title">
+          <h1>As seen on</h1>
+        </div><!-- END TITLE -->           
             
                 <div class="client-logos">
                   <a href="#" title="Featured Clients" class="clients"><img src="<?php echo $this->getThemePath()?>/images/clients/client1.png" alt="Clients"></a>
@@ -406,7 +402,7 @@ It's official - people are getting tired of playing the same old pong games ever
 	
 	<!-- START PARALLAX SECTION -->
 	<div id="parallax2" class="parallax">
-        <div class="bg2 parallax-bg"></div><!-- END PARALLAX BACKGROUND -->
+        <div class="bg2 parallax-bg" style="background-image: url('<?php echo $this->getThemePath()?>/images/parallax/parallax2.jpg');"></div><!-- END PARALLAX BACKGROUND -->
         <div class="overlay"></div><!-- END PATTERN OVERLAY -->
         <div class="container clearfix">
                 <div class="parallax-content">
@@ -434,11 +430,8 @@ It's official - people are getting tired of playing the same old pong games ever
 			<div class="sixteen columns">            
 	            <!-- START TITLE -->	            
 				<div class="title">
-				  <h1>Our Services</h1>
-                  <div class="subtitle">
-                      <p>Our services are delivered by our team with <span class="highlight">years of experience</span> are <span class="highlight">passionate</span> about developing business.</p>
-                  </div><!-- END SUBTITLE -->
-                </div><!-- END TITLE -->  	                           
+				  <h1>Kong Prong Price</h1>
+        </div><!-- END TITLE -->  	                           
 			</div><!-- END SIXTEEN COLUMNS -->  
            </div><!-- END ROW -->         
           </div><!-- END CONTAINER -->       
@@ -446,28 +439,31 @@ It's official - people are getting tired of playing the same old pong games ever
 <div class="fullwidth grey">       
           
 		<div class="container clearfix">
+      <div class="subtitle">
+                      <p>We wanted to add a twist to the traditional game of <span class="highlight">beer pong</span> so we came up with <span class="highlight">Kong Pong</span>.</p>
+                  </div><!-- END SUBTITLE -->
            <div class="row">
         	
-			<div class="one-third column">
+			<div class="one-third column" style="float: none !important;">
               <!-- START service-box -->
 				<div class="service-box">
                  <!-- START ICON -->
                    <div>
-                      <h3>Branding</h3><!-- END service-box TITLE -->
-                      <i class="service-icon icon-rocket"></i>
+                      <h3>Only $80 each</h3><!-- END service-box TITLE -->
+                      <img src="<?php echo $this->getThemePath()?>/images/single1.jpg" style="width: 30%;">
                    </div>
                  <!-- END ICON -->  
                  
                 <!-- START service-box DESCIPTION --> 
                 <div class="service-description">
-                   <p>Vestibulum commodo aliquam sollicitudin metus vitae. Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p><!-- END service-box DESCRIPTION --> 
+                   <p>The staple of the kong pong idea. Intrdocuing the pyramid design with over ....</p><!-- END service-box DESCRIPTION --> 
                 </div>
-                   <h6>What we offer</h6>
+                   <h6>What it offers</h6>
                    <ul class="styled-list">
-                    <li>Research</li>
-                    <li>Strategy</li>
-                    <li>Design</li>
-                    <li>Experience</li>
+                    <li>Multiple Games</li>
+                    <li>Sturdy Materials</li>
+                    <li>Cup Hole Covers</li>
+                    <li>Only $80 Each</li>
                    </ul>
                 <!-- START service-box DESCIPTION --> 
                  
@@ -476,61 +472,6 @@ It's official - people are getting tired of playing the same old pong games ever
 					
 
 
-
-			<div class="one-third column">
-              <!-- START service-box -->
-				<div class="service-box">
-                 <!-- START ICON -->
-                   <div>
-                      <h3>User Experience</h3><!-- END service-box TITLE -->
-                      <i class="service-icon icon-beaker"></i>
-                   </div>
-                 <!-- END ICON -->  
-                 
-                <!-- START service-box DESCIPTION --> 
-                <div class="service-description">
-                   <p>Vestibulum commodo aliquam sollicitudin metus vitae. Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p><!-- END service-box DESCRIPTION -->
-                </div> 
-                
-                   <h6>What we offer</h6>
-                   
-                   <ul class="styled-list">
-                    <li>Personal Analysis</li>
-                    <li>Wireframe Design</li>
-                    <li>Storyboard Development</li>
-                    <li>Visual Design</li>
-                   </ul>
-                
-                <!-- START service-box DESCIPTION --> 
-                 
-               </div> <!-- END service-box -->                                   
-			</div> <!-- END ONETHIRD COLUMN --> 
-					
-			<div class="one-third column">
-              <!-- START service-box -->
-				<div class="service-box">
-                 <!-- START ICON -->
-                   <div>
-                      <h3>Design</h3><!-- END service-box TITLE -->
-                      <i class="service-icon icon-tablet"></i>
-                   </div>
-                 <!-- END ICON -->  
-                 
-                <!-- START service-box DESCIPTION --> 
-                <div class="service-description">
-                  <p>Vestibulum commodo aliquam sollicitudin metus vitae. Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p><!-- END service-box DESCRIPTION -->
-                </div>
-                <!-- START service-box DESCIPTION --> 
-                <h6>What we offer</h6>
-                <ul class="styled-list">
-                  <li>Research</li>
-                  <li>Concept</li>
-                  <li>Design</li>
-                  <li>3D Modeling</li>
-                </ul>
-                 
-               </div> <!-- END service-box -->                                   
-			</div> <!-- END ONETHIRD COLUMN --> 
              			
 		 </div>  <!-- END ROW -->  
         </div> <!-- END CONTAINER -->  
@@ -541,6 +482,8 @@ It's official - people are getting tired of playing the same old pong games ever
 			<div class="sixteen columns">
             
             <h3>Are you ready to start a conversation?</h3>  <a href="#contact" class="button scroll-to">Get in touch</a>
+            email form goes here
+
 			 </div><!-- END SIXTEEN COLUMNS --> 
 	       </div><!-- END CONTAINER -->       
 
@@ -656,7 +599,7 @@ It's official - people are getting tired of playing the same old pong games ever
     <div class="portfolio-item one-third column design videography photography web branding">
            <div class="portfolio">
               <a href="#!projects/project-1.html" class="portfolio-image">
-                <img src="images/portfolio/portfolio1.jpg" alt="Portfolio 1"/><!-- END PORTFOLIO IMAGE -->   
+                <img src="<?php echo $this->getThemePath()?>/images/portfolio/portfolio1.jpg" alt="Portfolio 1"/><!-- END PORTFOLIO IMAGE -->   
                 
                 <div class="portfolio-overlay">                
                     <div class="thumb-info">                
@@ -959,9 +902,9 @@ It's official - people are getting tired of playing the same old pong games ever
                 <div class="parallax-content">
          <!-- START CONTACT DETAILS -->
          <div class="contact-details">
-           <h2>support@Jarvis.com</h2>
+           <h2>Kongpong@gmail.com</h2>
            <h1>1234-567-890</h1>
-           <h2>Envato ,Level 13, 2 Elizabeth St, Melbourne, Victoria 3000, Australia</h2>
+<!--            <h2>Envato ,Level 13, 2 Elizabeth St, Melbourne, Victoria 3000, Australia</h2> -->
         </div>			
 	    <!-- END CONTACT DETAILS -->
                 </div><!-- END PARALLAX CONTENT -->
@@ -979,7 +922,7 @@ It's official - people are getting tired of playing the same old pong games ever
 				<div class="title">
 				  <h1>Contact Us</h1>
                   <div class="subtitle">
-                      <p>We'd really love to <span class="highlight">hear from you</span> so why not drop us an email and <span class="highlight">we'll get back</span> to you as soon as we can.</p>
+                      <p>If you would like to sign up for initial product release, <span class="highlight"> enter your email on the </span>  <span class="highlight">we'll get back</span> to you as soon as we can.</p>
                   </div><!-- END SUBTITLE -->
                 </div><!-- END TITLE -->  	                           
 			</div><!-- END SIXTEEN COLUMNS -->  
@@ -998,7 +941,7 @@ It's official - people are getting tired of playing the same old pong games ever
                  <!--[if IE]>
                     <label for="name">Name</label>
                 <![endif]-->
-                  <input type="text" name="contact[name]" id="name" placeholder="Name (required)" >
+                 <!--  <input type="text" name="contact[name]" id="name" placeholder="Name (required)" > -->
                    <!--[if IE]>
                    		<label for="email">Email</label>
                     <![endif]-->
@@ -1006,14 +949,14 @@ It's official - people are getting tired of playing the same old pong games ever
                    <!--[if IE]>
                    		<label for="subject">Subject</label>
                     <![endif]-->
-                  <input type="text" name="contact[subject]" id="subject" placeholder="Subject" >
+                  <!-- <input type="text" name="contact[subject]" id="subject" placeholder="Subject" > -->
                 </div>
-                <div id="contact-textarea">
-                 <!--[if IE]>
+               <!--  <div id="contact-textarea">
+                 [if IE]>
                    		<label for="message">Your Message Here</label>
-                    <![endif]-->
+                    <![endif]
                   <textarea name="contact[message]" id="message" cols="39" rows="4" placeholder="Your Message"></textarea>
-                </div>
+                </div> -->
                 <div id="contact-submit">
                   <div>
                     <input name="submit" type="submit" id="submit" tabindex="5" value="Post Comment" class="comment-submit small button">
@@ -1036,7 +979,7 @@ It's official - people are getting tired of playing the same old pong games ever
        <div class="copyright">
      <div class="container clearfix">
         <div class="sixteen columns">   
-        <div class="copyright-logo"><a href="#"><img src="images/logo2.png" title="logo" alt="logo"/></a></div>   
+        <div class="copyright-logo"><a href="#"><img src="<?php echo $this->getThemePath()?>/images/logo2.png" title="logo" alt="logo"/></a></div>   
            <div class="social-icons">
               <div class="social-icon social-email"><a href="mailto:hallo@example.com" target="_blank" data-original-title="Email">Email</a></div>
               <div class="social-icon social-behance"><a href="#" target="_blank" data-original-title="Behance">Behance</a></div>

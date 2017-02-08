@@ -427,7 +427,7 @@ function initializePortfolio() {
 		
 		
 		/* ADD ACTIVE CLASS TO CURRENTLY CLICKED PROJECT */
-		 portfolioGrid.find('div.portfolio-item .portfolio a[href="#!' + url + '"]' ).parent().parent().addClass( 'current' );
+		 portfolioGrid.find('div.portfolio-item .portfolio a[href="http://localhost/www/kong/application/themes/kongpong/#!' + url + '"]' ).parent().parent().addClass( 'current' );
 		 portfolioGrid.find('div.portfolio-item.current').find('.portfolio').addClass('active');
 		
 

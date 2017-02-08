@@ -412,7 +412,6 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 }
 .home-parallax .home-slide-content {
 	padding: 55px 10px 50px;	
-	background: rgba(0, 0, 0, 0.3);
 	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);	
 	color: #ffffff;
@@ -538,7 +537,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 	height: 400px;
 	position: relative;
 	overflow: hidden;
-	background: #f8f8f8;
+	background: #000;
 	color: #ffffff;
 	z-index:0;
 }
@@ -556,10 +555,10 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 	overflow:hidden;
 }
 .overlay {
-	background: url(../images/pattern.png);
 	width: 100%;
 	position: absolute;
 	overflow:hidden;
+	opacity: .4;
 }
 .parallax-bg {
 	width: 100%;
@@ -614,7 +613,7 @@ p.quote {
 --------------------------------------------------------*/
 	
 .bg2 {
-	background-image: url(../images/parallax/parallax2.jpg);
+	opacity: .4;
 }
 .twitter-slider {
 	width: 85%;
@@ -683,6 +682,7 @@ p.quote {
 
 .bg3 {
 	background-image: url(../images/parallax/parallax3.jpg);
+	opacity: .4;
 }
 .testimonial-slider {
 	position: relative;
